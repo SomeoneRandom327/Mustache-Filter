@@ -33,7 +33,7 @@ function modelLoaded() {
 function gotPoses(results) {
     if(results.length > 0) {
 
-        noseX = results[0].pose.nose.x - 15;
+        noseX = results[0].pose.nose.x - 30;
         noseY = results[0].pose.nose.y + 5;
     }
 }
